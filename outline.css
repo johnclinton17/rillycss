@@ -80,6 +80,8 @@ a:focus,
 a:visited{
   color:  ;
  outline: none;
+ min-height: 48px;
+ min-width: 48px;
 }
 p{
   color:  ;
@@ -111,6 +113,8 @@ h6{
   font-family: ;
   font-size: ;
 }
+
+img,embed,object,video{ max-width: 100%; }
 
 .btn{
   color:  ;
