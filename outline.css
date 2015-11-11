@@ -116,11 +116,12 @@ h6{
 
 img,embed,object,video{ max-width: 100%; }
 
-.btn{
-  color:  ;
-  font-size: ;
-  font-style: ;
-  font-weight: ;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
 }
 
 /* Theme color */
